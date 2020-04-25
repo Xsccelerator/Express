@@ -1,0 +1,41 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "webpack -w",
+    "dev": "concurrently 'npm:build' 'npm:start'"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-minify": "^0.5.1",
+    "concurrently": "^5.1.0",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "materialize-css": "^1.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
